@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+    <h2>Изменение данный о работниках</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Измените имя работника</label><br>
+            <input type="text" name="Name" value="{{product.Name}}" />
+        </p>
+        <p>
+            <label>Измените фамилию работника</label><br>
+            <input type="text" name="Surname" value="{{product.Surname}}"/>
+        </p>
+        <p>
+            <label>Измените отчество работника</label><br>
+            <input type="text" name="Patronymic" value="{{product.Patronymic}}"/>
+        </p>
+        <p>
+            <label>Измените телефон работника</label><br>
+            <input type="text" name="Telephone" value="{{product.Telephone}}"/>
+        </p>
+        <p>
+            <label>Измените роль работника</label><br>
+            <input type="text" name="Role" value="{{product.Role}}"/>
+        </p>
+        <p>
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>

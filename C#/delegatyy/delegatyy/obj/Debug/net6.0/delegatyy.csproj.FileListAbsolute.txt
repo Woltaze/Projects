@@ -1,0 +1,15 @@
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\delegatyy.exe
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\delegatyy.deps.json
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\delegatyy.runtimeconfig.json
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\delegatyy.dll
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\ref\delegatyy.dll
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\bin\Debug\net6.0\delegatyy.pdb
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.csproj.AssemblyReference.cache
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.AssemblyInfoInputs.cache
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.AssemblyInfo.cs
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.csproj.CoreCompileInputs.cache
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.dll
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\ref\delegatyy.dll
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.pdb
+C:\Users\Shayko\source\repos\delegatyy\delegatyy\obj\Debug\net6.0\delegatyy.genruntimeconfig.cache

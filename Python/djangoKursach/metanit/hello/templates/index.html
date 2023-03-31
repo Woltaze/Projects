@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+    <h2>Список заказов</h2>
+    <a href="create/">Добавление заказа</a>
+    <table>
+        <thead><th>ФИО</th><th>Цена</th><th>Дата</th><th>Название мотоцикла</th><th></th></thead>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.Client }}</td>
+            <td>{{ product.Price }}</td>
+            <td>{{ product.Date}}</td>
+            <td>{{ product.Car}}</td>
+            <td>
+                <a href="edit/{{product.id}}">Изменить</a> | <a href="delete/{{product.id}}">Удалить</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+<body>
+    <h2>Список работников</h2>
+    <a href="create2/">Добавление работника</a>
+    <table>
+        <thead><th>Имя</th><th>Фамилия</th><th>Отчество</th><th>Телефон</th><th>Роль</th><th></th></thead>
+        {% for staff in staff %}
+        <tr>
+            <td>{{ staff.Name }}</td>
+            <td>{{ staff.Surname }}</td>
+            <td>{{ staff.Patronymic}}</td>
+            <td>{{ staff.Telephone}}</td>
+             <td>{{staff.Role}}</td>
+            <td>
+                <a href="edit2/{{staff.id}}">Изменить</a> | <a href="delete2/{{staff.id}}">Удалить</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+<h2>Памятка по ролям</h2>
+<h3>1-id--Администратор</h3>
+</html>

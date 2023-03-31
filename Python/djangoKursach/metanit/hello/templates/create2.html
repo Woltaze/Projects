@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+    <h2>Добавление работника</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Введите имя работника </label><br>
+            <input type="text" name="Name" />
+        </p>
+        <p>
+            <label>Введите фамилию работника</label><br>
+            <input type="text" name="Surname" />
+        </p>
+        <p>
+            <label>Введите отчество работника</label><br>
+            <input type="text" name="Patronymic" />
+        </p>
+        <p>
+            <label>Введите Телефон работника</label><br>
+            <input type="text" name="Telephone" />
+        </p>
+        <p>
+            <label>Введите роль работника</label><br>
+            <input type="text" name="Role" />
+        </p>
+        <p>
+
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>

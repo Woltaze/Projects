@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+    <h2>Изменение заказа</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Измените ФИО клиента</label><br>
+            <input type="text" name="Client" value="{{product.Client}}" />
+        </p>
+        <p>
+            <label>Измените цену</label><br>
+            <input type="number" name="Price" value="{{product.Price}}"/>
+        </p>
+        <p>
+            <label>Измените дату</label><br>
+            <input type="date" name="Date" value="{{product.Date}}"/>
+        </p>
+        <p>
+            <label>Измените Мотоцикл</label><br>
+            <input type="text" name="Car" value="{{product.Moto}}"/>
+        </p>
+        <p>
+        </p>
+        <input type="submit" value="Сохранить" >
+    </form>
+</body>
+</html>

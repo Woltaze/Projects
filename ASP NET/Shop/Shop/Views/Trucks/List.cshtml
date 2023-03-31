@@ -1,0 +1,15 @@
+﻿<h1>Все эвакуаторы</h1>
+<h3>@Model.currCategory</h3>
+<div class="row mt-5 mb-2">
+    @{ foreach (var truck in Model.AllTrucks)
+        {
+            <div class="col-lg-4">
+                <img class="img-thumbnail" src="@truck.img" alt="@truck.name"/>
+                <h2>@truck.name</h2>
+                <p>@truck.shortDesc</p>
+                <p>Цена: @truck.price.ToString("c")</p>
+                <p><a class="btn btn-warning" href="#">Подробнее</a></p>
+            </div>
+        }
+    }
+</div>
