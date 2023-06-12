@@ -1,0 +1,13 @@
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace SalesCRMApp.Models
+{
+    public class ApplicationUser :IdentityUser
+    {
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+     //   public int UsernameChangeLimit { get; set; } = 10;
+    //    public byte[] ProfilePicture { get; set; }
+    
+    }
+}
